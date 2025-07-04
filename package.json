@@ -1,7 +1,6 @@
 {
   "name": "whatsapp-baileys-formula-bot",
   "version": "1.0.0",
-  "description": "A WhatsApp bot using Baileys to calculate values",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -13,4 +12,3 @@
     "qrcode-terminal": "^0.12.0"
   }
 }
-
