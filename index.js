@@ -4,7 +4,7 @@ const QRCode = require("qrcode");
 const qrTerminal = require("qrcode-terminal");
 
 async function startBot() {
-  const { state, saveCreds } = await useMultiFileAuthState("./auth_info");
+  const { state, saveCreds } = await useMultiFileAuthState();
 
   const sock = makeWASocket({
     auth: state,
